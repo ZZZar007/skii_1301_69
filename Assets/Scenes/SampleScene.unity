@@ -879,7 +879,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 350937720994252213, guid: 35fc6687e99cdf143a563d3615b8b01d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.2
+      value: -8.89
       objectReference: {fileID: 0}
     - target: {fileID: 350937720994252213, guid: 35fc6687e99cdf143a563d3615b8b01d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1325,6 +1325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 795ad4d42d848924289a3888135a3115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  forcePower: 5
+  rb: {fileID: 0}
+  point: 0
+  hp: 100
 --- !u!4 &1411548583 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 350937720994252213, guid: 35fc6687e99cdf143a563d3615b8b01d, type: 3}
